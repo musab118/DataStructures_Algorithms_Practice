@@ -1,6 +1,8 @@
 //Basic Linked list exxample
 
 class LinkedList {
+
+
   constructor(value) {
     this.head = {
       value: value,
@@ -79,3 +81,11 @@ class LinkedList {
 
   }
 }
+
+const myLinkedList = new LinkedList(12)
+myLinkedList.append(12)
+myLinkedList.append(23)
+myLinkedList.append(12)
+myLinkedList.append(23)
+
+console.log(myLinkedList)
